@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Strategy Circular Progress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            
+        </div>
+        <div class="middle-section">
+            <div class="circle-container">
+                <svg class="progress-ring" width="300" height="300">
+                    <circle class="progress-ring__circle" stroke="#3498db" stroke-width="4" fill="transparent" r="140"
+                        cx="150" cy="150" />
+                </svg>
+                <div class="circle-text">
+                    <h2>UX Strategy</h2>
+                    <p id="dynamic-text"></p>
+                </div>
+            </div>
+            <div class="image-container"></div>
+        </div>
+        <div class="right-section">
+          
+        </div>
+    </div>
+    <div class="scrollbar">
+        <div class="thumb"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
